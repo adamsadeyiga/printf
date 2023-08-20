@@ -11,3 +11,6 @@ To use the custom `_printf` function, include the provided code in your C projec
 
 ```c
 int _printf(const char *format, ...);
+
+## Test Cases Usage
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 ../*.c main.c -o main
