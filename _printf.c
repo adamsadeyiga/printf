@@ -32,9 +32,9 @@ int _printf(const char *format, ...)
         {
             print_buffer(buffer, &bufferIndex);
 
-            formatFlags = fetch_precission(format, &currentIndex);
+            formatFlags = fetch_flags(format, &currentIndex);
             fieldWidth = fetch_width(format, &currentIndex, list);
-            precisionValue = get_precision(format, &currentIndex, list);
+            precisionValue = fetch_precision(format, &currentIndex, list);
             dataSize = fetch_size(format, &currentIndex);
             currentIndex++;
 

@@ -137,7 +137,7 @@ int fetch_flags(const char *format, int *i);
 
 int fetch_width(const char *format, int *i, va_list list);
 
-int fetch_precission(const char *format, int *i, va_list list);
+int fetch_precision(const char *format, int *i, va_list list);
 
 int fetch_size(const char *format, int *i);
 
