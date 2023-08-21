@@ -26,7 +26,10 @@ The `_printf` function in this repository provides an alternative implementation
 
 2. Include the necessary files in your project, such as `main.h` and the `_printf` implementation.
 
-3. Use the `_printf` function in your code just like you would use the standard `printf` function.
+3. Test_Cases Usage
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 ../*.c main.c -o main
+
+4. Use the `_printf` function in your code just like you would use the standard `printf` function.
 
 ## Function Description
 
@@ -70,5 +73,4 @@ This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LIC
 ```
 
 
-## Test Cases Usage
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 ../*.c main.c -o main
+
