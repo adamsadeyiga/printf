@@ -38,7 +38,7 @@ int _printf(const char *format, ...)
             dataSize = fetch_size(format, &currentIndex);
             currentIndex++;
 
-            totalPrinted = handle_print(format, &currentIndex, list, buffer,
+            totalPrinted = output_handler(format, &currentIndex, list, buffer,
                                          formatFlags, fieldWidth, precisionValue, dataSize);
 
             if (totalPrinted == -1)
