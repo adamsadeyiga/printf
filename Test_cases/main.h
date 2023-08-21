@@ -70,6 +70,8 @@ struct fmt
 
 typedef struct fmt fmt_t;
 
+void print_buffer(char buffer[], int *buff_ind);
+
 int _putchar(char c);
 
 int _printf(const char *format, ...);
