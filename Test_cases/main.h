@@ -135,7 +135,7 @@ int print_pointer(va_list types, char buffer[],
 
 int fetch_flags(const char *format, int *i);
 
-int get_width(const char *format, int *i, va_list list);
+int fetch_width(const char *format, int *i, va_list list);
 
 int fetch_precission(const char *format, int *i, va_list list);
 
