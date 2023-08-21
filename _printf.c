@@ -32,10 +32,10 @@ int _printf(const char *format, ...)
         {
             print_buffer(buffer, &bufferIndex);
 
-            formatFlags = get_flags(format, &currentIndex);
+            formatFlags = fetch_precission(format, &currentIndex);
             fieldWidth = get_width(format, &currentIndex, list);
             precisionValue = get_precision(format, &currentIndex, list);
-            dataSize = get_size(format, &currentIndex);
+            dataSize = fetch_size(format, &currentIndex);
             currentIndex++;
 
             totalPrinted = handle_print(format, &currentIndex, list, buffer,
