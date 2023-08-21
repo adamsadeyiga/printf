@@ -1,3 +1,9 @@
+/* Hey there, code voyagers! 🚀📄 */
+/* Feast your eyes upon the creation of brilliance! */
+/* Behold, the file 'utils_functions.c' */
+/* Authored with love and expertise by Adams Adeyiga and Odunaro Samson! 💻❤️ */
+/* Remember, folks: when these two unite, code magic takes flight! 🌟✨ */
+
 #include "main.h"
 
 /*************************
