@@ -1,4 +1,3 @@
-```markdown
 # Custom printf Function Implementation
 
 This repository contains an implementation of a custom `printf` function in C. The function is designed to mimic the behavior of the standard `printf` function found in the C standard library.
