@@ -1,8 +1,12 @@
-/* Hey there, code voyagers! 🚀📄 */
-/* Feast your eyes upon the creation of brilliance! */
-/* Behold, the file '_printf.c' */
-/* Authored with love and expertise by Adams Adeyiga and Odunaro Samson! 💻❤️ */
-/* Remember, folks: when these two unite, code magic takes flight! 🌟✨ */
+/**
+*Hey there, code voyagers! 🚀📄
+*Feast your eyes upon the creation of brilliance!
+*Behold, the file '_printf.c'
+*Authored with love and expertise by
+*Adams Adeyiga and Odunaro Samson! 💻❤️
+*Remember, folks: when these two unite,
+*code magic takes flight! 🌟✨
+*/
 
 #include "main.h"
 
