@@ -1,12 +1,13 @@
-/* Hey there, code voyagers! 🚀📄 */
-/* Feast your eyes upon the creation of brilliance! */
-/* Behold, the file 'main.h' */
-/* Authored with love and expertise by Adams Adeyiga and Odunaro Samson! 💻❤️ */
-/* Remember, folks: when these two unite, code magic takes flight! 🌟✨ */
-
 #ifndef MAIN_H
 
 #define MAIN_H
+
+/* Hey there, code voyagers! 🚀📄 */
+/* Feast your eyes upon the creation of brilliance! */
+/* Behold, the file 'fetch_flags.c' */
+/* Authored with love and expertise by Adams Adeyiga */
+/* and Odunaro Samson! 💻❤️ */
+/* Remember, folks: when these two unite, code magic takes flight! 🌟✨ */
 
 #include <stdarg.h>
 
@@ -69,7 +70,8 @@ int _printf(const char *format, ...);
 
 int output_handler(const char *fmt, int *i,
 
-		 va_list list, char buffer[], int flags, int width, int precision, int size);
+		   va_list list, char buffer[], int flags,
+		   int width, int precision, int size);
 
 /****************** FUNCTIONS ******************/
 
