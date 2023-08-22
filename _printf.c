@@ -1,14 +1,14 @@
-/***
- *Hey there, code voyagers! 🚀📄
- *Feast your eyes upon the creation of brilliance!
- *Behold, the file '_printf.c'
- *Authored with love and expertise by
- *Adams Adeyiga and Odunaro Samson! 💻❤️
- *Remember, folks: when these two unite,
- *code magic takes flight! 🌟✨
- */
-
 #include "main.h"
+
+/***
+ * Hey there, code voyagers!
+ * Feast your eyes upon the creation of brilliance!
+ * Behold, the file '_printf.c'
+ * Authored with love and expertise by
+ * Adams Adeyiga and Odunaro Samson!
+ * Remember, folks: when these two unite,
+ * code magic takes flight!
+ */
 
 /**
  * _printf - Custom printf function
@@ -24,7 +24,6 @@ int _printf(const char *format, ...)
 
 	if (format == NULL)
 		return (-1);
-
 	va_start(list, format);
 
 	for (currentIndex = 0; format && format[currentIndex] != '\0'; currentIndex++)
@@ -51,14 +50,11 @@ int _printf(const char *format, ...)
 
 			if (totalPrinted == -1)
 				return (-1);
-
 			totalPrintedChars += totalPrinted;
 		}
 	}
-
 	print_buffer(buffer, &bufferIndex);
 	va_end(list);
-
 	return (totalPrintedChars);
 }
 
